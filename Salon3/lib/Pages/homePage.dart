@@ -56,7 +56,6 @@ class _homePageState extends State<homePage> {
   Widget _buildBody() {
     return SingleChildScrollView(
       child: Stack(
-        overflow: Overflow.visible,
         alignment: Alignment.center,
         children: [
           _buildProfile(),

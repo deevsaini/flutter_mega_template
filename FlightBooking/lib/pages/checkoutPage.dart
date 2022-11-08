@@ -120,7 +120,6 @@ class _checkoutPageState extends State<checkoutPage> {
         borderRadius: BorderRadius.circular(10),
       ),
       child: Stack(
-        overflow: Overflow.visible,
         children: [
           Column(
             children: [

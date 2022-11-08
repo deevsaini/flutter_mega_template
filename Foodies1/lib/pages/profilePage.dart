@@ -109,7 +109,6 @@ class _profilePageState extends State<profilePage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.circular(30),

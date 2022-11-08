@@ -37,7 +37,6 @@ class _homeState extends State<home> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

@@ -185,7 +185,6 @@ class _searchPageState extends State<searchPage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(

@@ -53,7 +53,6 @@ class _accountPageState extends State<accountPage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Padding(

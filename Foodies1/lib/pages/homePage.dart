@@ -425,7 +425,6 @@ class _homePageState extends State<homePage> {
                 ),
               ),
               child: Stack(
-                overflow: Overflow.visible,
                 children: [
                   Positioned(
                     right: 10,

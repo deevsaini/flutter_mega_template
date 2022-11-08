@@ -146,7 +146,6 @@ class _messagePageState extends State<messagePage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 decoration: BoxDecoration(
@@ -222,7 +221,6 @@ class _messagePageState extends State<messagePage> {
                 child: Row(
                   children: [
                     Stack(
-                      overflow: Overflow.visible,
                       children: [
                         ClipRRect(
                           borderRadius: BorderRadius.circular(100),

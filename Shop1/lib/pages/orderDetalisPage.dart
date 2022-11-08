@@ -142,7 +142,6 @@ class _orderDetailsPageState extends State<orderDetailsPage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(

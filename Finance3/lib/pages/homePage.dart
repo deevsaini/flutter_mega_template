@@ -55,7 +55,6 @@ class _homePageState extends State<homePage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Center(

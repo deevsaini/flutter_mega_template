@@ -150,7 +150,6 @@ class _newinPageState extends State<newinPage> {
             ],
           ),
           child: Stack(
-            overflow: Overflow.visible,
             children: [
               Column(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -209,7 +208,6 @@ class _newinPageState extends State<newinPage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(

@@ -227,7 +227,6 @@ class _consultHistoryPageState extends State<consultHistoryPage> {
           child: Row(
             children: [
               Stack(
-                overflow: Overflow.visible,
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(10),
@@ -254,7 +253,7 @@ class _consultHistoryPageState extends State<consultHistoryPage> {
                         child: Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Icon(
-                            Icons.whatsapp,
+                            Icons.chat,
                             color: Colors.white,
                           ),
                         ),

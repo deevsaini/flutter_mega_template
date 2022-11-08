@@ -59,7 +59,6 @@ class _selectCategorisPageState extends State<selectCategorisPage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               if (tabID == 1) _fistContent() else if (tabID == 2) Container()

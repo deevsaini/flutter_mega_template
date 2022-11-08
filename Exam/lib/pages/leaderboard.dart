@@ -75,7 +75,6 @@ class _leaderboardState extends State<leaderboard> {
         boxShadow: [BoxShadow(color: Colors.grey.shade300, blurRadius: 30)],
       ),
       child: Stack(
-        overflow: Overflow.visible,
         children: [
           Positioned(
             bottom: 20,

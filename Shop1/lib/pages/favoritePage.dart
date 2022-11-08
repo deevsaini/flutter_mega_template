@@ -168,7 +168,6 @@ class _favoritePageState extends State<favoritePage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(

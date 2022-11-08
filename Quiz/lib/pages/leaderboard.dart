@@ -33,7 +33,6 @@ class _leaderboardState extends State<leaderboard> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

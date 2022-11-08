@@ -58,7 +58,6 @@ class _manageProfileState extends State<manageProfile> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               CircleAvatar(
                 backgroundImage: AssetImage('assets/images/profile.png'),

@@ -33,7 +33,6 @@ class _withdrawState extends State<withdraw> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

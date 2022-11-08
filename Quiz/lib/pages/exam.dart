@@ -38,7 +38,6 @@ class _examState extends State<exam> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

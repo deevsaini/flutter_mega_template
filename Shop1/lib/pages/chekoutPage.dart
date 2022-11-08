@@ -953,7 +953,6 @@ class _checkoutPageState extends State<checkoutPage> {
               ],
             ),
             child: Stack(
-              overflow: Overflow.visible,
               children: [
                 Padding(
                   padding: const EdgeInsets.only(

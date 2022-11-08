@@ -67,7 +67,6 @@ class _NearByPageState extends State<NearByPage> {
         children: [
           Stack(
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 400,

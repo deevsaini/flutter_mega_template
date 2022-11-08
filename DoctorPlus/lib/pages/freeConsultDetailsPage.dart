@@ -1098,7 +1098,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1192,7 +1191,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1286,7 +1284,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1380,7 +1377,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1474,7 +1470,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1568,7 +1563,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1662,7 +1656,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1756,7 +1749,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1850,7 +1842,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -1944,7 +1935,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),
@@ -2038,7 +2028,6 @@ class _freeConsultDetailsPageState extends State<freeConsultDetailsPage> {
               child: Row(
                 children: [
                   Stack(
-                    overflow: Overflow.visible,
                     children: [
                       ClipRRect(
                         borderRadius: BorderRadius.circular(10),

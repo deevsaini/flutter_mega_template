@@ -53,7 +53,6 @@ class _notificationPageState extends State<notificationPage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Padding(

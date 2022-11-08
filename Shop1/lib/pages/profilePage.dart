@@ -98,7 +98,6 @@ class _profilePageState extends State<profilePage> {
           ),
           Center(
             child: Stack(
-              overflow: Overflow.visible,
               children: [
                 ClipRRect(
                   borderRadius: BorderRadius.circular(100),

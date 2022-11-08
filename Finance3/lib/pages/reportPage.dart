@@ -73,7 +73,6 @@ class _reportPageState extends State<reportPage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Padding(
@@ -256,7 +255,6 @@ class _reportPageState extends State<reportPage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Padding(
@@ -326,7 +324,6 @@ class _reportPageState extends State<reportPage> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Padding(

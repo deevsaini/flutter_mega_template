@@ -555,7 +555,6 @@ class _productDetailsPageState extends State<productDetailsPage> {
 
   Widget _buildSavedItemContent(txt1, txt2, img) {
     return Stack(
-      overflow: Overflow.visible,
       children: [
         Container(
           height: 80,

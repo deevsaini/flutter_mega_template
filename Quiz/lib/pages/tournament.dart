@@ -35,7 +35,6 @@ class _tournamentState extends State<tournament> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

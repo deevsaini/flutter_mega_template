@@ -54,7 +54,6 @@ class _prmotionPageState extends State<prmotionPage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Padding(

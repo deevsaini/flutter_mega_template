@@ -34,7 +34,6 @@ class _notificationState extends State<notification> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

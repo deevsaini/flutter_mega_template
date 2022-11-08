@@ -54,7 +54,6 @@ class _paymentPageState extends State<paymentPage> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               Column(

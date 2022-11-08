@@ -272,7 +272,7 @@ class _filterPageState extends State<filterPage> {
                       ),
                       child: Center(
                         child: Icon(
-                          Icons.whatsapp,
+                          Icons.chat,
                           color: Colors.white,
                         ),
                       ),

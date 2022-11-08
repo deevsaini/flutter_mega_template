@@ -38,7 +38,6 @@ class _profilePageState extends State<profilePage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
             ],
@@ -98,7 +97,6 @@ class _profilePageState extends State<profilePage> {
 
   Widget _buildProfile() {
     return Stack(
-      overflow: Overflow.visible,
       children: [
         Container(
           height: 200,
@@ -401,7 +399,6 @@ class _profilePageState extends State<profilePage> {
           child: Row(
             children: [
               Stack(
-                overflow: Overflow.visible,
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(10),
@@ -428,7 +425,7 @@ class _profilePageState extends State<profilePage> {
                         child: Padding(
                           padding: const EdgeInsets.all(5.0),
                           child: Icon(
-                            Icons.whatsapp,
+                            Icons.chat,
                             color: Colors.white,
                           ),
                         ),

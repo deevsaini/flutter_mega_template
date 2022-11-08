@@ -33,7 +33,6 @@ class _addFriendsState extends State<addFriends> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

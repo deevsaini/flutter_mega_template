@@ -113,7 +113,6 @@ class _cartPageState extends State<cartPage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(

@@ -33,7 +33,6 @@ class _profileState extends State<profile> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

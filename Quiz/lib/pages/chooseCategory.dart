@@ -36,7 +36,6 @@ class _chooseCategoryState extends State<chooseCategory> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 150,

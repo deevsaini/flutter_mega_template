@@ -40,7 +40,6 @@ class _LoginPageState extends State<LoginPage> {
         children: [
           Stack(
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Container(
                 height: 300,

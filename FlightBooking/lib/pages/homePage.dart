@@ -279,7 +279,6 @@ class _homePageState extends State<homePage> {
             image: DecorationImage(image: AssetImage(img), fit: BoxFit.cover),
           ),
           child: Stack(
-            overflow: Overflow.visible,
             children: [
               Align(
                 alignment: Alignment.topRight,

@@ -173,7 +173,6 @@ class _DiscoverPageState extends State<DiscoverPage> {
                 padding: const EdgeInsets.all(10.0),
                 child: Stack(
                   alignment: Alignment.center,
-                  overflow: Overflow.visible,
                   children: [
                     CircleAvatar(
                       radius: 20,

@@ -54,7 +54,6 @@ class _profilePageState extends State<profilePage> {
             image: AssetImage('assets/images/bg5.jpg'), fit: BoxFit.cover),
       ),
       child: Stack(
-        overflow: Overflow.visible,
         children: [
           Align(
             alignment: Alignment.topCenter,

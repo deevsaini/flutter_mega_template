@@ -298,7 +298,6 @@ class _homePageState extends State<homePage> {
             ],
           ),
           child: Stack(
-            overflow: Overflow.visible,
             children: [
               Padding(
                 padding: const EdgeInsets.all(10.0),
@@ -360,7 +359,6 @@ class _homePageState extends State<homePage> {
 
   Widget _buildSecondItemContent(txt1, txt2, img) {
     return Stack(
-      overflow: Overflow.visible,
       alignment: Alignment.center,
       textDirection: TextDirection.rtl,
       fit: StackFit.loose,
@@ -456,7 +454,6 @@ class _homePageState extends State<homePage> {
             ],
           ),
           child: Stack(
-            overflow: Overflow.visible,
             children: [
               Padding(
                 padding: const EdgeInsets.all(10.0),
@@ -611,7 +608,6 @@ class _homePageState extends State<homePage> {
 
   Widget _buildSavedItemContent(txt1, txt2, img) {
     return Stack(
-      overflow: Overflow.visible,
       children: [
         Container(
           height: 80,
@@ -700,7 +696,6 @@ class _homePageState extends State<homePage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(
@@ -761,7 +756,6 @@ class _homePageState extends State<homePage> {
         alignment: Alignment.center,
         textDirection: TextDirection.rtl,
         fit: StackFit.loose,
-        overflow: Overflow.visible,
         clipBehavior: Clip.hardEdge,
         children: [
           Container(

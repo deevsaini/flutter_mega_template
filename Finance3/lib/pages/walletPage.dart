@@ -55,7 +55,6 @@ class _walletPageState extends State<walletPage> {
       child: Column(
         children: [
           Stack(
-            overflow: Overflow.visible,
             children: [
               _buildProfile(),
               SingleChildScrollView(

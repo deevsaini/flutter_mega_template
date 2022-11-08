@@ -128,7 +128,6 @@ class _favoritePageState extends State<favoritePage> {
             Container(
               width: 160,
               child: Stack(
-                overflow: Overflow.visible,
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 10),

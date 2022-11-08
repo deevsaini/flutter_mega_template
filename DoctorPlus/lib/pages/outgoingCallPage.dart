@@ -93,8 +93,7 @@ class _outgoingCallPageState extends State<outgoingCallPage> {
                   },
                   child: _buildIcons(
                       Icons.call_end, Colors.red, Colors.white, 'Cancle')),
-              _buildIcons(
-                  Icons.whatsapp, Colors.green, Colors.white, 'Text Chat'),
+              _buildIcons(Icons.chat, Colors.green, Colors.white, 'Text Chat'),
             ],
           ),
         ),

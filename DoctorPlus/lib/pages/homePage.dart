@@ -92,7 +92,6 @@ class _homePageState extends State<homePage> {
                                           notificationPage()));
                             },
                             child: Stack(
-                              overflow: Overflow.visible,
                               children: [
                                 Container(
                                   decoration: BoxDecoration(
