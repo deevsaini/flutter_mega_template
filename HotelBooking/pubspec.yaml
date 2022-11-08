@@ -1,0 +1,48 @@
+name: hotelbooking
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  carousel_slider: ^4.0.0
+  percent_indicator: ^4.0.0
+  syncfusion_flutter_datepicker: ^20.1.47
+  direct_select: ^2.0.0
+  wave: ^0.2.0
+  google_maps_flutter: ^2.1.2
+
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  change_app_package_name: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+
+  fonts:
+     - family: 'regular'
+       fonts:
+         - asset: assets/fonts/MYRIADPRO-REGULAR.OTF
+     - family: 'semi-bold'
+       fonts:
+         - asset: assets/fonts/MYRIADPRO-SEMIBOLD.OTF
+     - family: 'bold'
+       fonts:
+         - asset: assets/fonts/MYRIADPRO-BOLD.OTF
+
+

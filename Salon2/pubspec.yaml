@@ -1,0 +1,40 @@
+name: salon2
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  carousel_slider: ^2.3.1
+  
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  date_picker_timeline: ^1.2.3
+  change_app_package_name: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: 'bold'
+      fonts:
+        - asset: assets/fonts/ProductSans-Bold.ttf
+    - family: 'semi-bold'
+     
+      fonts:
+        - asset: assets/fonts/ProductSans-Medium.ttf
+    - family: 'regular'
+      fonts:
+        - asset: assets/fonts/ProductSans-Regular.ttf

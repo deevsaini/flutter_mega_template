@@ -1,0 +1,6 @@
+package io.initappz.flutter.elearn.app
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

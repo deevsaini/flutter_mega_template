@@ -1,0 +1,45 @@
+name: pet_care
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.0.0
+  date_picker_timeline: ^1.2.3
+  change_app_package_name: ^1.0.0
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  
+
+  fonts:
+     - family: 'bold'
+       fonts:
+         - asset: assets/fonts/EncodeSans-Bold.ttf  
+     - family: 'semibold'
+       fonts:
+         - asset: assets/fonts/EncodeSans-SemiBold.ttf   
+     - family: 'medium'
+       fonts:
+         - asset: assets/fonts/EncodeSans-Medium.ttf
+     - family: 'regular'
+       fonts:
+         - asset: assets/fonts/EncodeSans-Regular.ttf
